@@ -46,10 +46,10 @@ struct HomePage: View {
                 Text(" Home Town Area. ")
                     .font(Font.title3)
                     .foregroundColor(Color.black)
-                    .frame(width: 150, height: 45, alignment:  .center)
+                    .frame(height: 45, alignment:  .center)
                     .background(Color.blue)
                     .clipShape(CustomCornerShape(cornerRadius: 5.0, corners: [.allCorners]))
-                    .padding(.top, 30)
+                    .padding(EdgeInsets(top: 50, leading: 10, bottom: 10, trailing: 10))
                     
                 ZStack(alignment: .topLeading) {
                     
